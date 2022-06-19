@@ -1,0 +1,96 @@
+.info-page {
+    width: 100%;
+    height: 100%;
+}
+
+.info-page .info-page-body {
+    position: absolute;
+    top: 53px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-page .info-img-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    border-bottom: 5px solid #f7f7f7;
+    position: relative;
+}
+
+.info-page .profile-img{
+    position: relative;
+    margin: 15px;
+    object-fit: cover;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: solid 1.7px #e9b940;
+}
+
+.info-page .profile-change-btn {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 20px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.info-page .input-list-container {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    max-width: 500px;
+    min-width: 360px;
+}
+.info-page .info-input-first-div{
+    display: flex;
+    justify-content: space-around;
+    padding: 14px 15px;
+}
+
+.info-page .info-email {
+    margin-right: 87px;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.info-page .info-input-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.info-page .password-change-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.info-page .password-change-btn{
+    width: 80%;
+    background-color: #E9B940;
+    font-weight: 500;
+}
+
+.info-page .password-change-btn:active{
+    background-color:#E9B940;
+}
+
+.info-page .password-change-btn:hover{
+    background-color:#E9B940;
+}
+
+.info-page .info-input-text{
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 20px;
+}
